@@ -1,0 +1,269 @@
+@CHARSET "UTF-8";
+
+html,body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+
+.header2 {
+	background-color: #a6192e;
+	height: 210px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.look {
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.photo {
+	background-color: #f2e0c8;
+	height: 80px;
+	width: 80px;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+	border-radius: 80px;
+}
+
+.username {
+	height: 30px;
+	width: 100px;
+	margin: 0 auto;
+	position: relative;
+	left: -36px;
+}
+
+.menu2 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.menu2 ul {
+	list-style-type: none;
+}
+
+.menu2 ul li {
+	float: left;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+
+.menu2 ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+/*选项卡1*/
+#Tab1 {
+	width: 80%;
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+}
+/*选项卡2*/
+#Tab2 {
+	width: 360px;
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+}
+/*菜单class*/
+.Menubox {
+	width: 100%;
+	background: white;
+	height: 40px;
+	line-height: 28px;
+}
+
+.Menubox ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.Menubox li {
+	float: left;
+	display: block;
+	cursor: pointer;
+	width: 100px;
+	text-align: center;
+	color: #949694;
+	font-weight: bold;
+}
+
+.Menubox li.hover {
+	padding: 0px;
+	background: #fff;
+	width: 116px;
+	border-left: 1px solid #A8C29F;
+	border-top: 1px solid #A8C29F;
+	border-right: 1px solid #A8C29F;
+	background: url(http://www.jb51.net/upload/small/200792994426548.gif);
+	color: #a6192e;
+	font-weight: bold;
+	height: 27px;
+	line-height: 27px;
+}
+
+.Contentbox {
+	clear: both;
+	height: 500px;
+	margin-top: 0px;
+	border: 3px solid #A8C29F;
+	border-top: none;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.trend1 {
+	width: 100%;
+	height: 100px;
+	background-color: pink;
+}
+
+.trend2 {
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+}
+
+.trend3 {
+	width: 100%;
+	height: 100px;
+	background-color: #f2f2f5;
+	font-size: 30px;
+}
+
+.text {
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f5;
+	padding-top: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.photos {
+	width: 100%;
+}
+
+.photo1 {
+	width: 33.4%;
+	height: 100px;
+	background-color: pink;
+	float: left;
+}
+
+.photo2 {
+	width: 33.3%;
+	height: 100px;
+	background-color: yellow;
+	float: left;
+}
+
+.photo3 {
+	width: 33.3%;
+	height: 100px;
+	background-color: blue;
+	float: left;
+}
+
+.add_photo {
+	width: 33.4%;
+	height: 100px;
+	background-color: #f2f2f5;
+	clear: both;
+	float: left;
+}
+
+.add_photo a {
+	text-decoration: none;
+}
+
+.con_one_3_bellow {
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+. intype{
+	margin-top: 20px;
+}
+.bellow_1 {
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+
+.bellow_2 {
+	margin-bottom: 35px;
+}
+
+.bellow_3 {
+	margin-bottom: 35px;
+}
+
+.bellow_4 {
+	margin-bottom: 35px;
+}
+
+.con_one_4_bellow{
+	margin-top: 20px;
+}
+
+.bellow_4_1{
+	margin-top: 30px;
+}
+.bellow_4_2{
+	margin-top: 20px;
+}
+
+.person_info{
+	width:400px;
+	height:420px;
+	cellpadding:0;
+	cellspacing:0;
+}
+
+  .bg{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: #000;
+        opacity: 0.3;
+        left: 0;
+        top: 0;
+        display: none;
+    }
+    
+    .login{
+        width: 250px;
+        height: 200px;
+        background: #FFF;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        margin-top: -150px;
+        margin-left: -150px;
+        display: none;
+    }
+    .modiftel{
+    margin-top: 80px;
+    }
+    .circles{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-indent: 4px;
+        color: #FFF;
+        background: #333;
+        font-size: 16px;
+        border-radius: 10px;
+        text-align: 20px;
+        cursor: pointer;
+        float: right;
+    }
+
